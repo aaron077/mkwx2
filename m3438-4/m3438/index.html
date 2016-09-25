@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <title>电视界面</title>
+</head>
+<body>
+    <div class="left-space no-select">
+        <div class="top-space">
+            <div class="user-space">
+                <img class="user-header-img" src="image/gift/kiss.png"/>
+                <div class="anchor-space">
+                    <div class="anchor-name text-warp">
+                        悠悠乐队
+                        <div class="level-space"><i class="level-sign star"></i>10</div>
+                    </div>
+                    <div class="heart-num-space"><i class="anchor-heart animated pulse infinite"></i><span class="heart-num">804</span></div>
+                </div>
+            </div>
+            <div class="look-num-space">观看数&nbsp;&nbsp;<span class="look-num">2345</span></div>
+        </div>
+        <div class="gift-space scrollbar">
+            <div class="send-gift-list"></div>
+        </div>
+    </div>
+    <div class="center-space no-select">
+        <div class="barrage-space"></div>
+    </div>
+    <div class="right-space">
+        <div class="top-users-space scrollbar no-select">
+            <div class="users-list">
+                <div class="users-item">
+                    <div class="item-title">送礼</div>
+                    <div class="item-user">
+                        1<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        2<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        3<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="users-item">
+                    <div class="item-title">收礼</div>
+                    <div class="item-user">
+                        1<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        2<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        3<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p>10000币</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="users-item">
+                    <div class="item-title">爱心</div>
+                    <div class="item-user">
+                        1<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        2<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        3<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="users-item">
+                    <div class="item-title">参与</div>
+                    <div class="item-user">
+                        1<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        2<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                    <div class="item-user">
+                        3<img src="image/gift/kiss.png" class="item-user-header"/>
+                        <div class="item-info-space text-warp">
+                            <p>杨超-第二桌</p>
+                            <p><i class="item-heart animated pulse infinite"></i>10000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="talk-space scrollbar">
+            <div class="talk-list"></div>
+        </div>
+    </div>
+    <div class="button-space">
+        <div class="button" onclick="$(document).trigger(YC.EVENT.sendGift)">发送礼物</div>
+        <div class="button" onclick="$(document).trigger(YC.EVENT.sendBarrage)">发送弹幕</div>
+        <div class="button" onclick="$(document).trigger(YC.EVENT.sendMessage)">发送消息</div>
+    </div>
+</body>
+</html>
